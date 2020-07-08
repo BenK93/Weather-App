@@ -8,6 +8,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content:center;
+    flex-direction: column;
     align-items:center;
     background: linear-gradient(rgb(47,150,163), rgb(84,62,143));
     font-family: sans-serif;
@@ -23,6 +24,7 @@ body{
 }
 .temperature{
     flex-direction: column;
+    text-shadow: 2px 2px black;
 }
 .degree-section{
     display: flex;
@@ -32,9 +34,12 @@ body{
 .degree-section span{
     margin: 10px;
     font-size: 30px;
-
+    
 }
 
 .degree-section h2{
     font-size:40px;
+}
+.temperature-decs {
+    padding: 20px;
 }
